@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.hero-section {
+    background-image: linear-gradient(35deg,#7b5f5c9a, #ca81429b), url('./0b5f224d3a8c15511e5acb5b8c779f13.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+h2,h3,h4,h5 {
+    color: #f1b631;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
